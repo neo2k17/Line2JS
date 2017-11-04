@@ -1,20 +1,12 @@
 const LineConnect = require('./connect');
 let LINE = require('./main.js');
-console.info("\n\
-=========================================\n\
-BotName: LINE Etot JS\n\
-Version: 0.2.1\n\
-Terima Kasih Kepada @Alfathdirk @TCR_TEAM\n\
-=========================================\n\
-\nNOTE : Ini Adalah AlphatJS Lama Buatan @Alfathdirk @TCR_TEAM Dan Ini Telah Dikembangin Oleh @TAB_TEAM\nTolong Untuk Tidak Perjual-Belikan Script Ini!\n\
-****Nekopoi.host Running****");
 
 const auth = {
-	authToken: 'EmnAJjvLzLfEIxQkCvnb.5QT9zEniAkpIZc1LxU3YwW.0Pv2nbBsi0qguWRNmOTqrYYZJ4XLkeMKH070Gd7fa/o=',
-	certificate: 'a82e8634329485d3fdf0166b9741b6f68aa02073387211c9c70914778ba20c3a',
+	authToken: 'EmvkKOQV8H5rlKOIC2H3.TuhWCdVJO8kABaxppixWCW.qNCgwbr7met6CurUr+hMAB3DLdYWm5k/NZCYspOj/mk=',
+	certificate: 'e7396141a024ee24d8780e0060af0c4e4e072027f132107ddc1b3820c6eae53f',
 }
 let client =  new LineConnect(auth);
-// let client =  new LineConnect();
+//let client =  new LineConnect();
 
 client.startx().then(async (res) => {
 	
