@@ -518,7 +518,7 @@ class LINE extends LineAPI {
         }
       else
         {
-         this._sendMessage(seq, 'Bubar Bubar Ada Anak Kebanyakan Micin~');
+         this._sendMessage(seq, 'Bubar Ah Mending Nonton Nekopoi~');
          }
      }
 
